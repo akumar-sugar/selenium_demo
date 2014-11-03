@@ -1,3 +1,4 @@
+To run tests you need to install maven and git. 
 
 ### Maven
 
@@ -21,3 +22,5 @@ To generate reports:
 ```
 $ mvn site
 ```
+
+* An Allure report can be generated for any **JUnit 4** test.
