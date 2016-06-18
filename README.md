@@ -1,4 +1,6 @@
-To run tests you need to install maven and git. 
+https://github.com/praveen-garg/selenium_demo/wiki
+
+To use this repo and run tests on your machine, you must have installed maven and git.
 
 ### Maven
 
@@ -35,6 +37,6 @@ if successful, Terminal will show:
 ```
 Open:
 
-<PROJECT DIR>/target/site/allure-maven-plugin.html
+{PROJECT DIR}/target/site/allure-maven-plugin.html
 
 * An Allure report can be generated for any **JUnit 4** test.
