@@ -19,6 +19,10 @@ public class TestExampleWeb1 {
         // Create a new instance of the Firefox driver
         // Notice that the remainder of the code relies on the interface, 
         // not the implementation.
+        // see this, https://github.com/SeleniumHQ/selenium/issues/2257
+        // if you are using Firefox 47; downgrade to 46 or see http://seleniumsimplified.com/2016/04/how-to-use-the-firefox-marionette-driver/
+        // https://github.com/SeleniumHQ/selenium/blob/master/dotnet/CHANGELOG
+
         driver = new FirefoxDriver();
 
         // And now use this to visit Google
