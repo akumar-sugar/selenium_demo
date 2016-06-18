@@ -22,5 +22,19 @@ To generate reports:
 ```
 $ mvn site
 ```
+if successful, Terminal will show:
+
+```
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: xx:xx min
+[INFO] Finished at: 201x-xx-xxTxx:xx:xx xx:xx
+[INFO] Final Memory: xxM/xxM
+[INFO] ------------------------------------------------------------------------
+```
+Open:
+
+<PROJECT DIR>/target/site/allure-maven-plugin.html
 
 * An Allure report can be generated for any **JUnit 4** test.
