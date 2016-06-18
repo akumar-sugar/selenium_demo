@@ -64,8 +64,7 @@ public class TestExampleChromeDriver {
     }
 
     @After
-    public void tearDown()
-    {
+    public void tearDown() {
         driver.quit();
     }
 }

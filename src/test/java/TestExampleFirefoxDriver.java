@@ -10,12 +10,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
-public class TestExampleWeb1 {
+public class TestExampleFirefoxDriver {
     
 	WebDriver driver;
 	
 	@Test
-    public void testTitle(){
+    public void testTitle() {
         // Create a new instance of the Firefox driver
         // Notice that the remainder of the code relies on the interface, 
         // not the implementation.
@@ -56,10 +56,9 @@ public class TestExampleWeb1 {
         //Close the browser
         // driver.quit(); // when a test fails, the browser does not close; so moving to tearDown with @After 
     }
-	
-	@After
-	public void tearDown()
-    {
+
+    @After
+	public void tearDown() {
         driver.quit();
     }
 }
